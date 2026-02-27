@@ -1,1 +1,53 @@
 #Detection-and-Tracking-of-Drug-Trafficking-in-Encrypted-Social-Media
+
+Main Objectives:
+
+To detect drug-related activities in encrypted social media platforms
+
+To analyze behavioral patterns and metadata instead of message content
+
+To identify suspicious users and communication networks
+
+To assist law enforcement agencies with intelligent alerts
+
+To reduce false positives using ML-based analysis.
+
+Stages of Implementation:
+
+Requirement Analysis
+
+Study drug trafficking patterns
+
+Identify social media misuse cases
+
+Data Collection
+
+Public datasets
+
+Simulated encrypted data
+
+Preprocessing
+
+Cleaning data
+
+Removing noise
+
+Feature extraction
+
+Model Development
+
+Train ML models
+
+Pattern detection
+
+System Integration
+
+Combine detection & tracking modules
+
+Testing & Validation
+
+Accuracy and performance testing
+
+Result Analysis
+
+Generate reports and alerts
