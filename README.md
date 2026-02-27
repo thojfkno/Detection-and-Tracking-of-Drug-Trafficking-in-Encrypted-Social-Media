@@ -50,3 +50,29 @@
 7. Result Analysis
 
   * Generate reports and alerts
+
+Block Diagram – Explanation Lines
+
+1. Social Media Data
+
+This block represents data collected from encrypted social media platforms such as Telegram, WhatsApp, and Instagram, including chat activity, group interactions, and posting behavior.
+
+2. Metadata Extraction
+
+In this stage, non-content information like message frequency, timestamps, group size, emoji usage, and user interaction patterns are extracted without breaking encryption.
+
+3. Preprocessing & Feature Selection
+
+The extracted metadata is cleaned, filtered, and converted into meaningful features by removing noise and selecting relevant attributes for accurate analysis.
+
+4. ML / NLP Algorithms
+
+Machine Learning and Natural Language Processing algorithms analyze the processed features to identify hidden patterns, abnormal behavior, and suspicious communication trends.
+
+5. Suspicious Activity Detection
+
+Based on the model output, users or conversations that show drug trafficking indicators such as unusual activity patterns or repeated coded symbols are flagged as suspicious.
+
+6. User Tracking & Alert System
+
+This final block tracks the behavior of identified suspicious users over time and generates alerts or reports to assist cybercrime and law enforcement agencies.
