@@ -1,6 +1,6 @@
-#Detection-and-Tracking-of-Drug-Trafficking-in-Encrypted-Social-Media
+# Detection-and-Tracking-of-Drug-Trafficking-in-Encrypted-Social-Media
 
-#Main Objectives:
+# Main Objectives:
 
 * To detect drug-related activities in encrypted social media platforms
 
@@ -12,7 +12,7 @@
 
 * To reduce false positives using ML-based analysis.
 
-#Stages of Implementation:
+# Stages of Implementation:
 
 !. Requirement Analysis
 
@@ -51,7 +51,7 @@
 
   * Generate reports and alerts
 
-Block Diagram – Explanation Lines
+# Block Diagram – Explanation Lines
 
 1. Social Media Data
 
@@ -76,3 +76,65 @@ Based on the model output, users or conversations that show drug trafficking ind
 6. User Tracking & Alert System
 
 This final block tracks the behavior of identified suspicious users over time and generates alerts or reports to assist cybercrime and law enforcement agencies.
+
+# Drawvbacks and Overcome :
+
+1. Limited Access to Encrypted / Private Messages
+✔ How It Is Overcome
+
+Used Algorithms:
+
+✅ Pattern Recognition
+
+✅ Clustering (Network Analysis)
+
+✅ Random Forest / SVM
+
+2. Dynamic & Evolving Slang / Code Language
+✔ How It Is Overcome
+
+Used Algorithms:
+
+✅ NLP (Word2Vec, FastText, BERT)
+
+⚠️ Naive Bayes (limited)
+
+⚠️ SVM (with NLP features)
+
+3. False Positives / False Negatives
+✔ How It Is Overcome
+
+Used Algorithms:
+
+✅ Random Forest
+
+✅ SVM
+
+✅ Naive Bayes (baseline)
+
+✅ Ensemble Learning
+
+4. Data Privacy & Ethical Constraints
+✔ How It Is Overcome
+
+Used Techniques (not specific algorithms):
+
+✅ Pattern-level analysis
+
+✅ Clustering on anonymized data
+
+✅ No content storage
+
+5. Lack of Large Labeled Datasets
+✔ How It Is Overcome
+
+Used Algorithms:
+
+✅ Semi-supervised learning
+
+✅ Clustering
+
+✅ Transfer learning (BERT)
+
+⚠️ Naive Bayes (needs labels)
+
